@@ -1,4 +1,7 @@
 .eslintrc.js
+.prettierrc.js
 babel.config.js
 metro.config.js
+jest.config.js
+jest/*
 tsconfig.eslint.json
