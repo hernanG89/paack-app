@@ -1,0 +1,8 @@
+import KeyMirror from "keymirror";
+
+export default KeyMirror({
+  DELIVERY_DETAILS_CONTAINER: null,
+  DELIVERY_DETAILS_MAKE_ACTIVE_BUTTON: null,
+  DELIVERY_DETAILS_MARK_AS_DELIVERED_BUTTON: null,
+  DELIVERY_DETAILS_MARK_AS_UNDELIVERED_BUTTON: null,
+});
