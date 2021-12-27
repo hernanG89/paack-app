@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return */
 import fetchMock from "jest-fetch-mock";
 
-import { setupApiStore } from "../../tests/utils";
+import { setupApiStore } from "../../testUtils";
 import deliveriesService, { baseUrl } from "../deliveries";
 import { deliveries, delivery } from "../deliveries/mockedData";
 

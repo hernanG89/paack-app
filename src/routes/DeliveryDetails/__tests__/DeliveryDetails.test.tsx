@@ -3,8 +3,8 @@ import React from "react";
 import { fireEvent } from "@testing-library/react-native";
 
 import DeliveryDetails from "../index";
-import { renderWithRedux } from "../../../store/tests/renderWithRedux";
-import { setupApiStore } from "../../../store/tests/utils";
+import { renderWithRedux } from "../../../store/testUtils/renderWithRedux";
+import { setupApiStore } from "../../../store/testUtils";
 import deliveriesService from "../../../store/services/deliveries";
 import driverReducer from "../../../store/slices/driver";
 import testIds from "../testIds";
